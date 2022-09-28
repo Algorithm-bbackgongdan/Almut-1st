@@ -4,8 +4,8 @@ input = sys.stdin.readline
 n,m = list(map(int,input().split()))
 place = list(map(int,input().split()))
 
-num1 = [] #음수
-num2 = [] #양수
+num1 = [0] #음수
+num2 = [0] #양수
 
 for i in range(n):
   if place[i] < 0:
