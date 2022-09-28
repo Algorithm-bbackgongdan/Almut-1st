@@ -37,5 +37,3 @@ else:
     res += num2[j] * 2
   res += num2[0]
   print(res)
-
-#시간초과
