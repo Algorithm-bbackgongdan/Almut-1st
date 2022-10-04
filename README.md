@@ -73,3 +73,16 @@ code
 - https://www.acmicpc.net/problem/1541
 - https://www.acmicpc.net/problem/1461
 - https://www.acmicpc.net/problem/2138
+
+## **Week 2**
+
+출처 : 백준
+
+총무 : siwonblue(1)
+
+필수 문제
+- 2504 : 괄호의 값 https://www.acmicpc.net/problem/2504
+
+- 14503 : 로봇 청소기 https://www.acmicpc.net/problem/14503
+
+- 15686 : 치킨 배달 https://www.acmicpc.net/problem/15686
