@@ -33,4 +33,5 @@ if stack:
   print(0)
 else:
   print(result)
+  
   # 괄호 쌍이 맞지않는 케이스를 stack으로 구현
