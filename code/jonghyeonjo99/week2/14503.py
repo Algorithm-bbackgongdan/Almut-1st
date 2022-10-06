@@ -32,10 +32,10 @@ while (True):
       break
   if flag == 0:
     nx = x - dx[d]
-    ny = y - dy[d]
-    if arr[nx][ny] == 0:
+    ny = y - dy[d] #후진
+    if arr[nx][ny] == 0: #후진할 수 있다.
         x = nx
         y = ny
-    else:
+    else: #후진도 못한다.
         print(cnt)
         break
