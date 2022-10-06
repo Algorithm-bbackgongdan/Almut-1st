@@ -18,9 +18,6 @@ visited = [[0] * m for _ in range(n)]
 for _ in range(n):
     graph.append(list(map(int,input().split())))
 
-# direction - 다음 step 고려해서 0, 3, 2, 1
-# dx = [-1,0,1,0]
-# dy = [0,1,0,-1]
 dx = [0, 1, 0, -1]
 dy = [-1, 0, 1, 0]
 
@@ -33,8 +30,6 @@ while 1:
   flag = 0
   
   for _ in range(4):
-    # direction update
-    # d = (d+3) % 4
     d = turn_left(d)
 
     nx = r + dx[d]
