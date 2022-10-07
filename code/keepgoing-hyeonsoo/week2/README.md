@@ -1,10 +1,5 @@
 # 2. 구현
 
-Category: Algorithm
-Created: 2022년 3월 30일 오후 10:20
-Creator: HyeonSoo Choi
-Updated: 2022년 3월 31일 오전 2:16
-
 # Part 2
 
 # #예제1. 상하좌우
