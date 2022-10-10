@@ -86,3 +86,19 @@ code
 - 14503 : 로봇 청소기 https://www.acmicpc.net/problem/14503
 
 - 15686 : 치킨 배달 https://www.acmicpc.net/problem/15686
+
+
+
+## **Week 3**
+
+22.10.10 - 22.10.29 시험기간 휴회 
+<br/>
+22.10.30 3주차 문제 출제 예정
+
+출처 : 백준
+
+총무 : keepgoing-hyeonsoo(2)
+
+
+
+
