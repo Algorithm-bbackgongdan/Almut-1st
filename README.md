@@ -12,17 +12,17 @@
 
 ## 0. 시작
 - git clone 후 각자 github 아이디명으로 branch 파기
-## 1. 월 ~ 목요일 자정
+## 1. 월 ~ 금요일 자정
 - 커리큘럼에 맞게 교재 공부
 - 출제된 세 문제 풀기
 - WIL(Weak I Learn).md 정리 및 코드 자신의 branch에 push
   - Weak I Learn: 그 주 자신이 배운 내용 정리한 .md 문서
 - 내 브랜치 -> main 으로 pull request
-## 2. 목 ~ 금요일 자정
+## 2. 토요일
 - 사이클에 맞춰 해당 사람 코드 PR 리뷰
 - 주차별 해당 사람 = 자신의 번호 + 해당 주차 % 인원수
 - 예) 1주차-seungwookim99 : seungwookim99(0) + 1 % n = 1 : 1번 사람 코드 PR
-## 3. 금 ~ 일요일 자정
+## 3. 
 - 총무가 돈 계산
 - 총무가 다음주 필수 문제 README.md 커리큘럼에 정리
 
@@ -88,14 +88,18 @@ code
 - 15686 : 치킨 배달 https://www.acmicpc.net/problem/15686
 
 
-
 ## **Week 3**
 
-22.10.10 - 22.10.29 시험기간 휴회 
+22.10.10 ~ 22.10.29 : 시험기간 휴회 
 <br/>
-22.10.30 3주차 문제 출제 예정
+22.10.30 ~ 22.11.05 : DFS/BFS
 
-출처 : 백준
+필수 문제
+- 2644 : 촌수계산 https://www.acmicpc.net/problem/2644
+
+- 2583 : 영역구하기 https://www.acmicpc.net/problem/2583
+
+- 1987 : 알파벳 https://www.acmicpc.net/problem/1987
 
 총무 : keepgoing-hyeonsoo(2)
 
