@@ -47,6 +47,8 @@ def solve(data1):
     # print('test1 :',test1)
     # print('test2 :',test2)
     # print('ans   :',ans)
+
+
 solve(data1)
 if len(ans)==0:
     print(-1)
