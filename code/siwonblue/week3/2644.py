@@ -1,7 +1,7 @@
 # 촌수계산
 # 22.11.2
 # bdfs
-from collections import deque
+
 n = int(input())
 start, end = map(int,input().split())
 m = int(input())
