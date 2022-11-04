@@ -18,3 +18,4 @@ sys.setrecursionlimit() 사용 -> 성공
 dfs 문제를 풀 때 `sys.setrecursionlimit()` 을 쓰는 습관을 들이자.
 
 # 1987
+dp로 접근해야 할 것 같아서 푸는중,,
