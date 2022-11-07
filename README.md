@@ -103,6 +103,19 @@ code
 
 총무 : keepgoing-hyeonsoo(2)
 
+## **Week 4**
+
+22.11.06 ~ 22.11.12 : 정렬
+
+필수 문제
+- 1931 : 회의실 배정 https://www.acmicpc.net/problem/1931
+
+- 13334 : 철로 https://www.acmicpc.net/problem/13334
+
+- 1202 : 보석 도둑 https://www.acmicpc.net/problem/1202
+
+총무 : itsnowkim(3)
+
 
 
 
