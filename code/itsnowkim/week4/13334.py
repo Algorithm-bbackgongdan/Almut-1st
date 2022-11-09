@@ -22,7 +22,7 @@ start_point = MAXIMUM
 end_point = MAXIMUM
 
 for idx, item in enumerate(a):
-    print(item)
+    # print(item)
     if item[1] - item[0] <= d:
         if idx == 0:
             temp_count += 1
@@ -31,9 +31,9 @@ for idx, item in enumerate(a):
         elif item[1] - start_point <= d and item[0] <= end_point:
             temp_count += 1
             max_count = max(max_count, temp_count)
+    # 애초에 철로에 겹치지 않음
     else:
-        # 겹치지 않음.
-        temp_count = 1
+        temp_count = 0
         start_point = item[0]
         end_point = item[1]
 
