@@ -24,3 +24,41 @@ python의 sorted 옵션으로 lambda를 사용하여 구현하였다.
 이렇게 풀면 근데 시간초과가 걸린다. 너무 짜증나서 검색해 보니까 자료구조를 활용해야 한다.
 그래서 자료구조를 활용해서 O(nlogn)으로 줄였다.
 리스트를 활용했을 때는 시간복잡도가 최악의 경우 O(N * K)이었던 것을 생각하면(가방개수 * 보석개수) 좋아졌으므로, 앞으로 어떨 때 이러한 자료구조를 택해야 하는지 생각해 볼 수 있는 문제였다.
+
+- 시간초과의 늪에 빠진 나...
+
+- 시도1. 시간초과.
+```python 
+for w in bag:
+    while jewl and w >= jewl[0][0]:
+        heapq.heappush(heap, -jewl.pop(0)[1])
+    if heap:
+        res -= heapq.heappop(heap)
+```
+
+- 시도2. elif 조건 추가. 시간초과.
+```python 
+for w in bag:
+    while jewl and w >= jewl[0][0]:
+        heapq.heappush(heap, -jewl.pop(0)[1])
+    if heap:
+        res -= heapq.heappop(heap)
+    elif not jewl:
+        break
+```
+
+- 시도3. pop(0)이 list의 길이만큼의 시간복잡도를 가진다는 것을 알고 다른 방법을 찾아야 했다.
+-> 이거도 heap으로 처음에 받자. 시간초과....
+```python 
+for w in bag:
+    while jewl and w >= jewl[0][0]:
+        [tempweight, tempval] = heapq.heappop(jewl)
+        heapq.heappush(heap, -tempval)
+    if heap:
+        res -= heapq.heappop(heap)
+    elif not jewl:
+        break
+```
+
+- 시도4. 개빡쳐서 머리 굴리던 중 pypy가 python3보다 더 빠르게 컴파일된다는 것을 알게 되어 그렇게 제출하였다. 추가로 input()에서 sys.stdin.readline()으로 입력을 바꿔줬다. 그랬더니 성공,,,
+어이 없네,,,
