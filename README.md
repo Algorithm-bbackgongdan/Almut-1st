@@ -116,6 +116,19 @@ code
 
 총무 : itsnowkim(3)
 
+## **Week 5**
+
+22.11.14 ~ 22.11.20 : 이진 탐색
+
+필수문제
+- 16401 : 과자나눠주기 https://www.acmicpc.net/problem/16401
+
+- 2470 : 두 용액 https://www.acmicpc.net/problem/2470
+
+- 1561 : 놀이공원 https://www.acmicpc.net/problem/1561
+
+총무 : jonghyeonjo99(4)
+
 
 
 
