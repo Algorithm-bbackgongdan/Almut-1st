@@ -28,7 +28,7 @@
 
 
 ## 맴버 및 번호
-~~seungwookim99(0) -> siwonblue(1) -> keepgoing-hyeonsoo(2) -> itsnowkim(3) -> jonghyeonjo99(4)~~
+~~seungwookim99(0) -> siwonblue(1) -> keepgoing-hyeonsoo(2) -> itsnowkim(3) -> jonghyeonjo99(4)~~  
 seungwookim99(0) -> keepgoing-hyeonsoo(1) -> itsnowkim(2) -> jonghyeonjo99(3)
 
 
