@@ -16,7 +16,7 @@ start = 0
 end = max(arr)
 
 result = 0
-while (start <= end):
+while start <= end:
     total = 0
     mid = (start + end) // 2
     # 모든 조카에게 같은 길이의 막대과자를 나눠줄 수 없을 때
