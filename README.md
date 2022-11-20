@@ -129,7 +129,3 @@ code
 - 1561 : 놀이공원 https://www.acmicpc.net/problem/1561
 
 총무 : jonghyeonjo99(4)
-
-
-
-
