@@ -27,7 +27,6 @@ for i in range(1, N):
         if dp[i][j-1] < dp[i-1][j]:
             # print('위가 더 큼')
             dp[i][j] = dp[i-1][j]
-
         elif dp[i][j-1] > dp[i-1][j]:
             # print('왼쪽이 더 큼')
             k = j
@@ -50,17 +49,15 @@ for i in range(1, N):
             # dp[k][q] 얘가 최소임.
             # 얘의 cost와 지금의 cost 차이만큼 더 집어넣을 수 있음.
             dp[i][j] = dp[i][j-1] + hotel[i][1] * ((j - q)//hotel[i][0])
+        
         # 새로운 cost 넘어가기 전 이전 cost가 만족하는지 확인하기
+        # if dp[i][j] >= C:
+        #     print(j)
+        #     sys.exit(0)
+# for i in dp:
+#     print(i)
+for j in range(row):
+    for i in range(N):
         if dp[i][j] >= C:
             print(j)
             sys.exit(0)
-        
-
-
-
-
-
-
-
-# print(c, n)
-# print(hotel)
