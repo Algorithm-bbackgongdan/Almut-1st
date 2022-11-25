@@ -28,14 +28,15 @@
 
 
 ## 맴버 및 번호
-seungwookim99(0) -> siwonblue(1) -> keepgoing-hyeonsoo(2) -> itsnowkim(3) -> jonghyeonjo99(4)
+~~seungwookim99(0) -> siwonblue(1) -> keepgoing-hyeonsoo(2) -> itsnowkim(3) -> jonghyeonjo99(4)~~  
+seungwookim99(0) -> keepgoing-hyeonsoo(1) -> itsnowkim(2) -> jonghyeonjo99(3)
 
 
 ## 벌금 규칙
 1. 지각 : 금요일 자정 전까지 풀리퀘 날리기
    - 시간 당 500원 
-   - ex) 금요일 새벽 3시 : 3*500 = 1500원 벌금
-2. 결석 : 금요일 자정 이후에 제출 혹은 미제출 
+   - ex) 토요일 새벽 3시 : 3*500 = 1500원 벌금
+2. 결석 : 요일 자정 이후에 제출 혹은 미제출 
    - 10000원
 3. 시험기간 : 합의하에 스터디 2주 휴식 
 4. 탈퇴 시 : 취직했을 경우, 그 외에는 대타 구하고 나가기
